@@ -21,6 +21,9 @@ import weatherPreview from './assets/images/weather1.jpg';
 import blogPreview from './assets/images/Gblog1.jpg';
 import calculatorPreview from './assets/images/calculator.jpg';
 import cwPreview from './assets/images/CW24.jpg';
+import gitHub from './assets/images/GithubCut.png';
+import telegram from './assets/images/telegramCut.png';
+import LinkedIn from './assets/images/linkedinCut.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -47,7 +50,7 @@ function App() {
                                                                                                       ${darkMode ? "text-blue-300" : "text-green-700"}`}>Emmanuel</span>
                       <br /> React.js Developer</h1>
           <div className={`DM md:absolute bottom-25 text-center md:mb-0 mb-10`}>
-            <a href="" className={`flext font-bold text-lg duration-600 px-8 py-2 rounded-xl shadow-full  md:border-3 border-1 shadow-md
+            <a href="https://wa.me/qr/PONKW5O247VKL1" className={`flext font-bold text-lg duration-600 px-8 py-2 rounded-xl shadow-full  md:border-3 border-1 shadow-md
                                   ${darkMode ? "text-blue-300 hover:bg-blue-400 border-blue-400 hover:text-white shadow-gray-400" : "text-green-700 hover:bg-green-700 border-green-700 hover:text-white shadow-gray-900"}`}>
               Direct Message
             </a>
@@ -265,20 +268,20 @@ function App() {
       </div>
       <footer className={`flex justify-between items-center sticky bottom-0 py-3 lg:px-20 md:px-15 px-5
                           ${darkMode ? "bg-gray-800 text-white" : "bg-gray-100 text-gray-800"}`}>
-        <ul className={`Socials-Icons flex md:space-x-10 space-x-4`}>
+        <ul className={`Socials-Icons flex md:space-x-7 space-x-2`}>
           <li>
-            <a href="">
-              <img src="" alt="" />LinkedIn
+            <a href="https://www.linkedin.com/in/emmanuel-odior-a77037278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <img className={`w-5`} src={LinkedIn} alt="" />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" />GitHub
+            <a href="https://github.com/Greyholdyngs">
+              <img className={`w-5`} src={gitHub} alt="" />
             </a>
           </li>
           <li>
-            <a href="">
-              <img src="" alt="" />Telegram
+            <a href="https://t.me/Greyholdyngs">
+              <img className={`w-5`} src={telegram} alt="" />
             </a>
           </li>
         </ul>
